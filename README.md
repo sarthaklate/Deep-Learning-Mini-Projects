@@ -28,4 +28,4 @@ python LSTM_Temperature_Prediction/lstm_model.py
 - LSTM: Temperature forecasting  
 
 ## 📌 Author
-Your Name
+Sarthak Late
