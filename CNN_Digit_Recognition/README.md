@@ -1,8 +1,44 @@
-# CNN Digit Recognition
+# CNN - Handwritten Digit Recognition
 
-This project uses a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) using the MNIST dataset.
+## 📌 Project Description
+This project uses a Convolutional Neural Network (CNN) to recognize handwritten digits (0–9) from images.
 
-## How to run
-pip install -r requirements.txt
+## 🎯 Objective
+To classify handwritten digits using deep learning.
+
+## 📊 Dataset
+- MNIST Dataset (built-in TensorFlow dataset)
+- 60,000 training images
+- 10,000 testing images
+
+## ⚙️ Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+
+## 🧠 Model Architecture
+- Conv2D Layer
+- MaxPooling Layer
+- Flatten Layer
+- Dense Layer
+- Output Layer (10 classes)
+
+## ▶️ How to Run
+pip install -r ../requirements.txt  
 python cnn_model.py
+
+## 📈 Output
+- Accuracy ~98%
+- Predicted digit images
+
+## 📸 Results
+(Add screenshots here)
+
+## 📌 Conclusion
+CNN successfully identifies handwritten digits with high accuracy.
+
+## 🔮 Future Work
+- Improve accuracy with more layers
+- Deploy as web app
 
